@@ -1,0 +1,10 @@
+.git
+__pycache__
+**/__pycache__
+*.pyc
+local_output/
+test_input/
+scripts/
+README.md
+.env.example
+.gitignore
