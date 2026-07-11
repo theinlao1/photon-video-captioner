@@ -37,13 +37,24 @@ _SECRET_KEYS = [
     "FALLBACK_BASE_URL", "FALLBACK_API_KEY", "FALLBACK_VISION_MODEL", "FALLBACK_TEXT_MODEL",
     "DISABLE_REASONING",
 ]
-try:
+def _pull(mapping) -> None:
     for _k in _SECRET_KEYS:
-        if _k in st.secrets:
-            os.environ[_k] = str(st.secrets[_k])
-except FileNotFoundError:
-    # No secrets.toml anywhere (st.secrets raises on access). Examples tab
-    # works without secrets; the live tab will show its "no key" warning.
+        try:
+            if _k in mapping and str(mapping[_k]).strip():
+                os.environ[_k] = str(mapping[_k])
+        except Exception:
+            pass
+
+
+try:
+    _secrets = st.secrets
+    _pull(_secrets)                       # top-level keys
+    for _sk in list(_secrets.keys()):     # also look one level into any [section]
+        _sv = _secrets[_sk]
+        if hasattr(_sv, "keys"):
+            _pull(_sv)
+except Exception:
+    # No secrets configured at all. Examples tab still works; live tab shows a hint.
     pass
 
 LIVE_ENABLED = bool(os.environ.get("PRIMARY_API_KEY"))
