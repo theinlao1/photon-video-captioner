@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "v2",
+    "title": "Orange kitten in a garden",
+    "video_url": "https://storage.googleapis.com/amd-hackathon-clips/13825391-uhd_3840_2160_30fps.mp4",
+    "captions": {
+      "formal": "A small ginger kitten walks along a dirt path from the shaded undergrowth toward the camera. The animal moves with a steady gait into a patch of sunlight, keeping its tail raised vertically and its gaze fixed forward.",
+      "sarcastic": "Behold the apex predator, cautiously emerging from the shadows to investigate the lens. It marches with the confidence of a creature that has never once misjudged a jump, tail held high as if expecting a medal for basic locomotion.",
+      "humorous_tech": "The kitten executes a smooth forward traversal, transitioning from the low-light background layer into the high-exposure foreground. Its vertical tail acts as a perfect signal antenna, maintaining a locked focus on the camera target without any packet loss.",
+      "humorous_non_tech": "This tiny orange fluff-ball marches out of the bushes like it owns the place, stepping boldly into the sunshine. With its tail sticking straight up like a flagpole, it stares down the camera with the serious determination of someone who just spotted a snack."
+    }
+  },
+  {
+    "task_id": "v3",
+    "title": "Office worker at a desk",
+    "video_url": "https://storage.googleapis.com/amd-hackathon-clips/3044693-uhd_3840_2160_24fps.mp4",
+    "captions": {
+      "formal": "A woman with dark hair in a high bun is seated at a white desk in a modern office, typing on a white keyboard while facing a silver desktop computer. She wears a light beige jacket over an orange top and a silver cross necklace, with pink fingernails visible as she works. The camera angle gradually shifts upward, revealing circular white ceiling lights and a large green potted plant in the background.",
+      "sarcastic": "Here we see a professional diligently typing away, presumably solving the world's most pressing issues one keystroke at a time. The tangled cables on her pristine white desk add a charming touch of realism to this otherwise sterile, modern office tableau. As the camera pans up, we are gifted with a breathtaking view of the ceiling lights, because watching someone work is just so riveting.",
+      "humorous_tech": "She is executing her daily workflow with the precision of a well-optimized script, though the tangled cables suggest the backend infrastructure is still in beta. Her pink nails hit the white keys like a mechanical keyboard enthusiast who actually cares about aesthetics. The upward camera pan feels like a slow render of the environment assets while the main character remains stuck in an idle animation loop.",
+      "humorous_non_tech": "She is typing away with the focus of someone who definitely has a lot to say, even if her desk cables look like they lost a fight with a spaghetti monster. The plant behind her is probably the only other thing in the room getting any exercise, mostly by trying to grow toward those fancy ceiling lights. It is a quiet scene, assuming you ignore the silent scream of the tangled wires."
+    }
+  },
+  {
+    "task_id": "v1",
+    "title": "Autumn city boulevard",
+    "video_url": "https://storage.googleapis.com/amd-hackathon-clips/1860079-uhd_2560_1440_25fps.mp4",
+    "captions": {
+      "formal": "This time-lapse footage depicts a high-volume urban intersection during the day, characterized by rapid vehicular movement and vibrant autumn foliage. Tall beige structures, including a building labeled 'KOREA TELECOM ENGINEERING,' frame the background under bright, hazy lighting conditions.",
+      "sarcastic": "Nothing says 'relaxing autumn day' quite like watching thousands of commuters blur past in a frantic race to nowhere. The trees are trying their best to look picturesque, but they are largely ignored by the society of sedans and buses rushing by.",
+      "humorous_tech": "The traffic flow here has clearly exceeded its bandwidth capacity, resulting in massive packet loss and motion blur. It looks like the city's rendering engine is struggling to keep up with the high number of concurrent vehicle threads.",
+      "humorous_non_tech": "The cars are moving so fast they look like someone hit the fast-forward button on real life. Even the trees seem to be holding their breath while the buses and trucks zoom by in a colorful, blurry rush."
+    }
+  }
+]
