@@ -99,7 +99,7 @@ logo = ROOT / "assets" / "photon_logo.png"
 c1, c2 = st.columns([1, 3])
 with c1:
     if logo.exists():
-        st.image(str(logo), use_container_width=True)
+        st.image(str(logo), use_column_width=True)
 with c2:
     if not logo.exists():
         st.markdown('<p class="photon-title">PHOTON</p>', unsafe_allow_html=True)
